@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(246, 241, 241);
+    color: black;
+    /* text-align: center; */
+}
+
+.container {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 35px;
+    height: 50%;
+    width: 100%;
+
+}
+.logo-icon{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+nav {
+    display: flex;
+}
+
+.nav-items {
+    justify-items: center;
+
+    padding-left: 300px;
+    padding-top: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.aside {
+    background-image: url(images/pexels-joyston-judah-331625-933054.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 98vw;
+    border-radius: 20px 20px 20px 20px;
+
+    
+    
+}
+
+.main-text {
+    color: blanchedalmond;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 80px; 
+    font-size: 5.8rem;
+    font-weight: 400;
+}
+
+.sub-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.wrapper {
+    padding: 10px;
+    /* Space around the background */
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: content-box;
+    /* Include padding in width/height */
+    
+}
